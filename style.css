@@ -992,6 +992,12 @@ footer{
   text-align: justify;
   font-size: 1.4rem;
 }
+.left .content a p{
+  text-align: justify;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #ffffff;
+}
 .left .content .social{
   margin: 20px 0 0 0;
 }
@@ -1025,6 +1031,20 @@ footer{
   cursor: pointer;
 }
 .center .content .fas:hover {
+   background: #039e22;
+}
+.center .content .fab {
+  font-size: 1.4rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.center .content .fab:hover {
    background: #039e22;
 }
 .center .content .text{
@@ -1329,4 +1349,8 @@ footer{
 }
 .gitLink:hover{
   color: #b6bfd1;
+}
+
+.dirtyA:hover{
+  color:#ffffff;text-decoration:none
 }
