@@ -24,14 +24,14 @@ window.addEventListener("scroll",function(){
     menuArea.classList.remove("cus-nav");
   }
 
-  if (window.pageYOffset >= 0 && window.pageYOffset <694) {
+  if (window.pageYOffset >= 0 && window.pageYOffset <650) {
       btns[0].classList.add("active");
       btns[1].classList.remove("active");
       btns[2].classList.remove("active");
       btns[3].classList.remove("active");
       btns[4].classList.remove("active");
   }
-  if (window.pageYOffset >=694 && window.pageYOffset <1198 ) {
+  if (window.pageYOffset >=650 && window.pageYOffset <1198 ) {
     btns[0].classList.remove("active");
     btns[1].classList.add("active");
     btns[2].classList.remove("active");
@@ -72,7 +72,6 @@ for (var i = 0; i < btns.length; i++) {
   var current = document.getElementsByClassName("active");
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
-  console.log("rk"+window.pageYOffset);
   });
 }
 
